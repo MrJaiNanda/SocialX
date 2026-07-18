@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-muted text-ink font-sans antialiased;
+}
+
+/* Make keyboard focus clearly visible everywhere, for accessibility */
+:focus-visible {
+  outline: 2px solid theme("colors.brand.DEFAULT");
+  outline-offset: 2px;
+}
