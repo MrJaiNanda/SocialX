@@ -1,6 +1,8 @@
 # SocialX
 
 https://mrjainanda.github.io/SocialX/ 
+
+
 ABOVE IS THE LINK FOR THE WEBSITE IF YOU ARE READING THE README
 
 A simple, easy-to-read social media app: sign up, post short updates, like and
