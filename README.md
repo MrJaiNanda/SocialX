@@ -1,5 +1,8 @@
 # SocialX
 
+https://mrjainanda.github.io/SocialX/ 
+ABOVE IS THE LINK FOR THE WEBSITE IF YOU ARE READING THE README
+
 A simple, easy-to-read social media app: sign up, post short updates, like and
 comment on posts, and view profiles.
 
@@ -80,10 +83,3 @@ Open http://localhost:5173 in your browser, sign up for an account, and start po
 - Clean, high-contrast UI (dark ink text on white cards, a single blue accent
   for actions, a red accent reserved for likes/errors) with visible keyboard
   focus states
-
-## Things you could add next
-
-- Image uploads for posts and avatars
-- Follow/unfollow between users
-- Real-time updates with WebSockets
-- Pagination or infinite scroll for the feed

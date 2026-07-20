@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
     },
     password: {
       type: String,
-      required: true, // stored as a bcrypt hash, never plain text
+      required: true, // stored as a bcrypt hash
     },
     bio: {
       type: String,
@@ -27,8 +27,7 @@ const userSchema = new mongoose.Schema(
       maxlength: 160,
     },
     avatarColor: {
-      // We don't handle image uploads in this simple version,
-      // so instead every user gets a random accent color for their avatar initial.
+      // Every user gets a random accent color for their avatar initial.
       type: String,
       default: "#2D5BFF",
     },

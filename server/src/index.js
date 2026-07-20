@@ -36,7 +36,7 @@ app.use("/api/users", userRoutes);
 // Simple health check, useful to confirm the server is running
 app.get("/api/health", (req, res) => res.json({ status: "ok" }));
 
-// Catch-all for unknown routes
+// Catch-all for unknown routing VERY IMPORTANT FOR UNKNOWN ROUTING
 app.use((req, res) => res.status(404).json({ message: "Route not found." }));
 
 const PORT = process.env.PORT || 5000;

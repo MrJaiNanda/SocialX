@@ -2,7 +2,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
-// A small palette of accessible, high-contrast colors we randomly
+// Color Described here
 // assign to new users for their avatar initial.
 const AVATAR_COLORS = ["#2D5BFF", "#E1493C", "#0F9D58", "#8C3BFF", "#D97B00"];
 
@@ -10,7 +10,7 @@ const createToken = (userId) => {
   return jwt.sign({ userId }, process.env.JWT_SECRET, { expiresIn: "7d" });
 };
 
-// Shape the user object we send back to the client (never send the password hash)
+// Shape the user object we send back to the client
 const toPublicUser = (user) => ({
   id: user._id,
   username: user.username,
